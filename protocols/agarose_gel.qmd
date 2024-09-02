@@ -1,0 +1,98 @@
+# Supplies 
+**Equipment**
+* Gel tray
+* Tray bumpers (optional: tape will work as well)
+* Well combs
+* Flask
+* Voltage source
+* Gel box
+* UV light source
+* Scale
+* Microwave
+* Heat resistant gloves
+* Eye protection
+
+**Chemicals**
+* TAE 
+* Agarose
+* Ethidium bromide
+* DI water
+* Loading dye
+* Ladder
+
+**Consumables**
+* Weigh boat
+* Gloves
+
+**Sample Preparation**
+Prepare samples using extraction protocol AND determine your sample concentrations before moving into gel preparation. This can be done the day before. Minimum concentration should be 50 ng/uL. Alter your total sample volume for loading to achieve this minimum. 
+
+**Sample**
+_Note: Entire sample will be loaded_
+_Note: Dye and DI water amounts are based on 6x dye. Do not over dilute._
+- 1 uL sample
+- 1 uL loading dye 
+- 4 uL DI water
+
+**Gel Preparation**
+Agarose percentages are based on the kind of sample you are using. Too high and you will run the gel forever, too low and you won’t get the proper visualization. For gDNA,the range is 0.8 - 1.0%. For ease of calculations, there’s no discernable difference in that range, so using 1% is fine. 
+
+_Note: Set up your tray with bumpers and the well comb prior to making the gel. Verify the gel box and electrodes are available for your chosen tray._
+
+_Note: Determine total gel volume pouring a known amount of water in your tray. Water should cover most of the combs, but not entirely or you can’t load samples once it sets._
+
+**Gel Mixture**
+- Agarose powder
+- TAE 
+
+1. Add total volume of TAE to a flask at least double the volume you need to account for mixture bubbling.In the heating process, the mixture will expand. 
+
+2. In a weigh boat, measure Agarose powder and add to TAE. Weigh the total mixture in the flask and record.
+
+3. Do not swirl or mix before putting it in the microwave. Grab heat gloves as this can get very hot! 
+
+4. Microwave in 15 - 20 second pulses, taking the mixture out and swirling it to mix. Point the opening of the flask away from you when doing this. Repeat until the mixture is fully mixed and clear. _Note: set microwave to 2-3 minutes and watch for bubbling._ Take it out and swirl when you see the bubbles.
+
+5. The weight after the mixture is fully clear will be lower than the recorded weight.  Add TAE to bring the total weight back to what you recorded prior to microwaving.
+
+6. Allow the mixture to cool enough to handle, approximately 5 - 10 minutes.
+
+7. Add 1 uL of ethidium bromide to every 10 mL of total gel mixture. Swirl to mix.
+
+8. Pour gel slowly into the tray (to minimize bubbles) and allow it to set for approximately 30 minutes. A set gel is uniformly cloudy.
+
+9. Once set, put the gel tray in the box with the well combs on the opposite of your red lead. Add enough TAE buffer to cover the gel and fill the wells on either side of the tray. 
+
+10. Gently remove the comb and manipulate the gel to ensure the TAE buffer has filled in the wells.
+
+11. Add 5 uL of ethidium bromide to the ‘red’ well and mix with your pipette.
+
+**Process**
+*Loading and running the gel*
+
+_Note: Air is your enemy. Pipette carefully and ensure no air is in the tip! Gently insert enough of the pipette tip to ensure no air is introduced to the well. Expel the sample slowly to the first stop only._
+
+12. Load 5 uL of the ladder to the first well.
+
+13. Load each prepared sample in order until finished. 
+
+14. Cover and connect electrodes. 
+
+15. Set voltage to 100 - 120v and run for approximately 1.5 hours. 
+
+_Note: Our dye separates into blue (~3000)  and yellow (~1000)  indicator bands to help visually indicate where you are._
+
+
+*Reading the gel*
+
+16. Turn off the voltage and carefully remove the gel from the box. Tilt to remove excess buffer.
+
+17. Place gel directly on the UV imager. Verify it is set to trans-illuminator.
+
+18. Turn off room lights and cover the gel with the clear UV shield before turning on. Note: this emits UV radiation, don’t manipulate gel or stare at uncovered gel when the machine is on.
+
+19. Take a picture of the gel if it’s completed. Note: orange plexiglass in front of your phone camera will provide a crisp photo.
+
+20. If samples haven't run long enough, carefully put the gel back on the tray and return to the gel box for more time.
+
+21. If running more than one gel you can reuse the buffer. Re-add ethidium bromide to the well.
