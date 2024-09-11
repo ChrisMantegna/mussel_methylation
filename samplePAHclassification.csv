@@ -1,0 +1,25 @@
+﻿site_name,sample_id,PAH_group,sumPAH,DIN_gill,DIN_mantle,Note
+Elliot Bay Myrtle Edwards,69,High,12078.42,3.30,2.80,Second highest summed PAH value across sites. Highest value is disputed based on the annotation by WDFW
+Elliot Bay Myrtle Edwards,70,High,12078.42,2.80,3.00,
+Elliot Bay Myrtle Edwards,71,High,12078.42,3.00,3.60,
+Elliot Bay Myrtle Edwards,72,High,12078.42,2.50,3.70,
+"Seattle Aquarium, Pier 59",78,High,3304.96,2.60,4.40,
+"Seattle Aquarium, Pier 59",79,High,3304.96,1.50,7.50,
+"Seattle Aquarium, Pier 59",80,High,3304.96,1.30,6.10,
+"Seattle Aquarium, Pier 59",81,High,3304.96,3.20,5.00,
+"Smith Cove, Terminal 91",92,High,7153.28,1.80,3.50,
+"Smith Cove, Terminal 91",93,High,7153.28,3.90,7.30,
+"Smith Cove, Terminal 91",94,High,7153.28,2.90,3.50,
+"Smith Cove, Terminal 91",95,High,7153.28,1.60,6.30,
+Hood Canal Holly,105,Low,116.10,5.80,4.50,
+Hood Canal Holly,106,Low,116.10,3.30,7.60,
+Hood Canal Holly,107,Low,116.10,4.00,8.00,
+Hood Canal Holly,109,Low,116.10,2.70,8.20,
+Aiston Preserve,239,Low,97.40,2.90,7.10,Lowest summed PAH value of all the sites
+Aiston Preserve,240,Low,97.40,1.30,2.80,
+Aiston Preserve,241,Low,97.40,2.70,2.60,
+Aiston Preserve,242,Low,97.40,1.60,1.60,No change in DIN
+Broad Spit (Fisherman's Point),269,Low,127.26,2.80,6.60,
+Broad Spit (Fisherman's Point),270,Low,127.26,2.40,6.10,
+Broad Spit (Fisherman's Point),271,Low,127.26,1.90,8.60,
+Broad Spit (Fisherman's Point),272,Low,127.26,1.90,8.30,
