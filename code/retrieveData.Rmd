@@ -7,6 +7,7 @@ Existing RNA-Seq data was retrieved from the following complete RNASeq data avai
 - *Mytilus galloprovincialis* [Reference Genome](https://www.ncbi.nlm.nih.gov/data-hub/genome/GCA_900618805.1/)
 
 ### Downloading the RNASeq data from the accession numbers using SRA Toolkit
+
 ```{bash}
 # Pull out all of the sequences from the exposures
 
@@ -22,6 +23,7 @@ SRR16771870
 ```
 
 ### Pulling my reference genome from prefab code provided by NCBI
+
 ```{bash}
 
 # verify where I am working
@@ -30,6 +32,7 @@ cd ../data
 ls
 
 ```
+
 ```{bash}
 
 # grab the reference
@@ -40,7 +43,9 @@ curl -OJX GET "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GC
 unzip GCA_900618805.1.zip /chris-musselcon/data 
 
 ```
+
 ### OLD Genome - not needed
+
 ```{bash}
 # remove when I clean this up
 
@@ -52,6 +57,7 @@ curl -OJX GET "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GC
 ```
 
 # Couldn't move unzip here, moved to terminal and did it
+
 ```{bash}
 
 #couldn't make this work so I went over to terminal and did it
@@ -59,16 +65,16 @@ curl -OJX GET "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GC
 cd .
 ls
  unzip GCA_025277285.1.zip
-````
 
 ## Kallisto
 ### Inspect what we have first, then run Kallisto
-```{bash}
 # remove this code chunk but keep the one below
 cd /home/shared/kallisto
 
 ```
+
 inspect
+
 ```{bash}
 
 head ../data/ncbi_dataset/data/GCA_900618805.1/*.fna
@@ -81,12 +87,15 @@ head ../data/ncbi_dataset/data/GCA_900618805.1/*.fna
 chmod 777 ../data/ncbi_dataset/data/GCA_900618805.1/cds_from_genomic.fna
 
 ```
+
 ```{bash}
 
 head ../data/ncbi_dataset/data/GCA_900618805.1/cds_from_genomic.fna
 
 ```
+
 # Create the index file to align my short read files to the genes from the MGAL_10
+
 ```{bash}
 
 
