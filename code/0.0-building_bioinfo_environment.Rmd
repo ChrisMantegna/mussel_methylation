@@ -34,6 +34,7 @@ mkdir env
 # the path is: /Users/cmantegna/miniforge3/envs/bio-cli/bin/python
 # update the .Rprofile file to include these lines and ensure everything is talking to each other.
 # restart RStudio and verify that everything is working the next time 
+# add a readme that explains what's going on 
 
 
 ```

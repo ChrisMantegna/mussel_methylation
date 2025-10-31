@@ -1,8 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
 
 ## Bioinformatics Environment Setup
 
@@ -10,7 +5,7 @@ editor_options:
 
 **Project***:* Mussel Methylation Analysis
 
-**Environment:** bio-cli
+**Environment:** `bio-cli`
 
 **Manager:** Mamba (Conda compatible)
 
