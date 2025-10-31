@@ -1,29 +1,53 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Step: Alignment and QC (example using Bismark)
+# Load bash variables into memory
+source .bashvars
 
-# environment checks
-bismark --version || echo "bismark not found"
+# Make output directory if it doesn't exist
+mkdir --parents "${raw_fastqc_dir}"
 
-# directory setup
-REF_DIR="./reference"
-ALIGN_DIR="./aligned_reads"
-mkdir -p "$ALIGN_DIR"
+############ RUN FASTQC ############
 
-# genome preparation (only once per reference)
-bismark_genome_preparation "$REF_DIR"
 
-# align trimmed reads
-for fq1 in ./trimmed_reads/*_R1_val_1.fq.gz; do
-  base=$(basename "$fq1" _R1_val_1.fq.gz)
-  fq2="./trimmed_reads/${base}_R2_val_2.fq.gz"
-  echo "Aligning $base"
-  bismark \
-    --genome "$REF_DIR" \
-    -1 "$fq1" -2 "$fq2" \
-    -o "$ALIGN_DIR"
-done
+# Create array of trimmed FastQs
+raw_fastqs_array=(${raw_reads_dir}/${fastq_pattern})
 
-# summarize alignment results
-multiqc "$ALIGN_DIR" -o "$ALIGN_DIR"
+# Pass array contents to new variable as space-delimited list
+raw_fastqc_list=$(echo "${raw_fastqs_array[*]}")
+
+echo "Beginning FastQC on raw reads..."
+echo ""
+
+# Run FastQC
+### NOTE: Do NOT quote raw_fastqc_list
+fastqc \
+--outdir ${raw_fastqc_dir} \
+--quiet \
+${raw_fastqc_list}
+
+echo "FastQC on raw reads complete!"
+echo ""
+
+############ END FASTQC ############
+
+############ RUN MULTIQC ############
+echo "Beginning MultiQC on raw FastQC..."
+echo ""
+
+multiqc ${raw_fastqc_dir} -o ${raw_fastqc_dir}
+
+echo ""
+echo "MultiQC on raw FastQs complete."
+echo ""
+
+############ END MULTIQC ############
+
+echo "Removing FastQC zip files."
+echo ""
+rm ${raw_fastqc_dir}/*.zip
+echo "FastQC zip files removed."
+echo ""
+
+# View directory contents
+ls -lh ${raw_fastqc_dir}

@@ -1,0 +1,23 @@
+#### Assign Variables ####
+
+# Data directories
+export output_dir_top="../output/00.00-WGBSseq-reads-FastQC-MultiQC"
+export raw_fastqc_dir="${output_dir_top}/raw-fastqc"
+export raw_reads_dir="../data/raw-wgbs"
+export raw_reads_url="https://owl.fish.washington.edu/nightingales/M_trossulus/"
+
+# FastQ filename patterns
+export fastq_pattern='*.fastq.gz'
+export R1_fastq_pattern='*_1.fastq.gz'
+export R2_fastq_pattern='*_2.fastq.gz'
+
+## Initialize arrays
+export fastq_array_R1=()
+export fastq_array_R2=()
+export raw_fastqs_array=()
+export R1_names_array=()
+export R2_names_array=()
+
+# Print formatting
+export line=\"--------------------------------------------------------\"
+
