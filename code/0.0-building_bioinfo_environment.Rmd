@@ -32,7 +32,8 @@ mkdir env
 # note: i want to leave the base deactivated most of the time if I'm running bioinfo projects, so i'll use "mamba activate bio-cli" when I need to use it and "mamba deactivate" when I'm done
 # additionally, to make bio-cli visible in RStudio, I need to add it to my system settings.
 # the path is: /Users/cmantegna/miniforge3/envs/bio-cli/bin/python
-
+# update the .Rprofile file to include these lines and ensure everything is talking to each other.
+# restart RStudio and verify that everything is working the next time 
 
 
 ```
